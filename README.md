@@ -2,7 +2,14 @@
 
 ## Dataset
 
-Extract the [CirCor DigiScope Phonocardiogram dataset v2](https://www.kaggle.com/datasets/bjoernjostein/the-circor-digiscope-phonocardiogram-dataset-v2) into `data/`.
+Extract the [CirCor DigiScope Phonocardiogram dataset v1.0.3](https://physionet.org/content/circor-heart-sound/1.0.3/) and place its contents directly inside `data/`, without the outer ZIP folders:
+
+```text
+data/
+├── training_data.csv
+├── training_data/
+└── ...
+```
 
 ## Setup
 
